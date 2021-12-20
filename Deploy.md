@@ -30,13 +30,17 @@ bash ./build.sh
 
 Open the SubDAO browser, [http://47.243.43.150:3000/?rpc=ws%3A%2F%2F43.133.174.232%3A9944#/contracts,](http://47.243.43.150:3000/?rpc=ws%3A%2F%2F43.133.174.232%3A9944#/contracts,) enter Developer->Contracts, click upload & deploy code, select the previous step The generated polkasign.contract file.
 
+![](https://raw.githubusercontent.com/SubDAO-Network/polkasign-docs/main/graphics/deploy-1.png)
 
 Enter Next, input the owner of the contract, and endowment a certain number of tokens.
 
+![](https://raw.githubusercontent.com/SubDAO-Network/polkasign-docs/main/graphics/deploy-2.png)
 
 Click Deploy, after signing and submitting, wait until the chain result. If you see the contracts.Instantiated event, it means that the contract is successfully deployed and you can see the newly deployed contract in the browser.
 
+![](https://raw.githubusercontent.com/SubDAO-Network/polkasign-docs/main/graphics/deploy-3.png)
 
+![](https://raw.githubusercontent.com/SubDAO-Network/polkasign-docs/main/graphics/deploy-4.png)
 
 Expand the messages to test the contract, and view the address of the contract for subsequent configuration.
 
@@ -91,6 +95,7 @@ nohup node subscribe.js &
 ```
 Check the corresponding nohup.out log file to confirm that the service started successfully. At the same time, you can open the page [http://127.0.0.1:8080/](http://127.0.0.1:8080/) to perform a simple query test.
 
+![](https://raw.githubusercontent.com/SubDAO-Network/polkasign-docs/main/graphics/deploy-5.png)
 
 ## Front-end
 
